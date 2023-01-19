@@ -95,9 +95,9 @@ function showQuetions(index) {
 
   //creating a new span and div tag for question and option and passing the value using array index
   let que_tag =
-    "<span>" +
-    questions[index].number +
-    ". " +
+    // "<span>" +
+    // questions[index].number +
+    // ". " +
     questions[index].question +
     "</span>";
   let option_tag =
@@ -164,40 +164,19 @@ function showResult() {
   result_box.classList.add("activeResult"); //show result box
   const scoreText = result_box.querySelector(".score_text");
   if (userScore > 5) {
-    // if user scored more than 3
-    //creating a new span tag and passing the user score numberer and total question numberer
-    let scoreTag =
-      "<span>ֆանտաստիկ է! 🎉, Դուք հավաքեցիք <p>" +
-      userScore +
-      "</p> - <p>" +
-      questions.length +
-      "</p>ից</span>";
+    let scoreTag = `<span>ֆանտաստիկ է! 🎉, Դուք հավաքեցիք ${userScore} միավոր ${questions.length}-ից</span>`;
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
   } else if (userScore === 5 || userScore === 4) {
-    let scoreTag =
-      "<span>լավ է, բայց ունեք դեռ աշխատելու տեղ 😎, Դուք հավաքեցիք <p>" +
-      userScore +
-      "</p> - <p>" +
-      questions.length +
-      "</p>ից</span>";
+    let scoreTag = `<span>լավ է, բայց ունեք դեռ աշխատելու տեղ 😎, Դուք հավաքեցիք ${userScore} միավոր ${questions.length}-ից</span>`;
     scoreText.innerHTML = scoreTag;
   }
   else if (userScore === 3 || userScore === 2) {
-    let scoreTag =
-      "<span>լավ չէ, դուք դեռ շատ աշխատելու տեղ ունեք 😐, Դուք հավաքեցիք <p>" +
-      userScore +
-      "</p> - <p>" +
-      questions.length +
-      "</p>ից</span>";
+    let scoreTag = `
+    <span>լավ չէ, դուք դեռ շատ աշխատելու տեղ ունեք 😐, Դուք հավաքեցիք ${userScore} միավոր ${questions.length}-ից</span>`;
     scoreText.innerHTML = scoreTag;
   } else {
-    // if user scored less than 1
-    let scoreTag =
-      "<span>Օօօ՝ ոչ 😐, Դուք ընդամենը հավաքեցիք <p>" +
-      userScore +
-      "</p> - <p>" +
-      questions.length +
-      "</p>ից</span>";
+    let scoreTag = `
+      <span>Օօօ՝ ոչ 😐, Դուք ընդամենը հավաքեցիք ${userScore} միավոր ${questions.length}-ից</span>`
     scoreText.innerHTML = scoreTag;
   }
 }
