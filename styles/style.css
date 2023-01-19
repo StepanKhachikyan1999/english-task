@@ -381,3 +381,110 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+
+
+@media only screen and (max-width: 580px) {
+    .info_box {
+        width: 90%;
+    }
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box{
+        left: 50%;
+    }
+}
+
+
+/* 
+@media only screen and (max-width: 485px) {
+    .start_btn,
+.info_box,
+.quiz_box,
+.result_box{
+    left: 50%;
+}
+.info_box .info-list .info {
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 470px) {
+    .info_box .info-title {
+        font-size: 16px;
+    }
+    .info_box {
+        width: 70%;
+    }
+    .start_btn,
+.info_box,
+.quiz_box,
+.result_box{
+    left: 50%;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-48%, -50%) scale(1);
+}
+}
+
+@media only screen and (max-width: 435px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-46%, -50%) scale(1);
+}
+}
+
+
+@media only screen and (max-width: 420px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-45%, -50%) scale(1);
+}
+}
+
+@media only screen and (max-width: 410px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-44%, -50%) scale(1);
+}
+}
+
+@media only screen and (max-width: 395px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-43%, -50%) scale(1);
+}
+}
+
+
+@media only screen and (max-width: 361px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-38%, -50%) scale(1);
+}
+}
+
+@media only screen and (max-width: 341px) {
+    .info_box.activeInfo, .quiz_box.activeQuiz, .result_box.activeResult {
+        opacity: 1;
+        z-index: 5;
+        pointer-events: auto;
+        transform: translate(-35%, -50%) scale(1);
+}
+} */
