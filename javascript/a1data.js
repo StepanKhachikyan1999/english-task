@@ -213,9 +213,274 @@ const data = [
       "a desk"
     ]
   },
+  {
+    number: 20,
+    question: "«դու հիասքանչ ես»",
+    answer: "You are wonderful",
+    options: [
+      "You are ugly",
+      "You are smart",
+      "You are old",
+      "You are wonderful"
+    ]
+  },
+  {
+    number: 21,
+    question: "«Ձայնդ հիանալի է»",
+    answer: "Your voice is amazing!",
+    options: [
+      "You are wonderful",
+      "Your voice is unique!",
+      "Your voice is amazing!",
+      "Your voice is thin"
+    ]
+  },
+  {
+    number: 22,
+    question: "Ինչպես կթարգմանեք՝ «ափսե» բառը",
+    answer: "plate",
+    options: [
+      "plate",
+      "meat",
+      "menu",
+      "thirsty"
+    ]
+  },
+  {
+    number: 23,
+    question: "Ինչպես կթարգմանեք՝ «թխել» բառը",
+    answer: "bake",
+    options: [
+      "boil",
+      "bake",
+      "kitchen",
+      "strawberry"
+    ]
+  },
+  {
+    number: 24,
+    question: "Ինչպես կթարգմանեք՝ «եռալ» բառը",
+    answer: "boil",
+    options: [
+      "bowl",
+      "candy",
+      "kitchen",
+      "boil"
+    ]
+  },
+  {
+    number: 25,
+    question: "Ինչպես կթարգմանեք՝ «խաշած» բառը",
+    answer: "boiled",
+    options: [
+      "chilli",
+      "steak",
+      "boiled",
+      "vegetable"
+    ]
+  },
+  {
+    number: 26,
+    question: "Ինչպես կթարգմանեք՝ «գազար» բառը",
+    answer: "carrot",
+    options: [
+      "fruit",
+      "steak",
+      "carrot",
+      "onion"
+    ]
+  },
+  {
+    number: 27,
+    question: "She ... now",
+    answer: "is dancing",
+    options: [
+      "dance",
+      "are dancing",
+      "is dancing",
+      "dances"
+    ]
+  },
+  {
+    number: 28,
+    question: "... she often go to the cinema?",
+    answer: "Does",
+    options: [
+      "Is",
+      "Are",
+      "Does",
+      "Do"
+    ]
+  },
+  {
+    number: 29,
+    question: "I usually ... hard.",
+    answer: "work",
+    options: [
+      "am working",
+      "works",
+      "work",
+      "are work"
+    ]
+  },
+  {
+    number: 30,
+    question: "He ... angry",
+    answer: "is",
+    options: [
+      "are",
+      "am",
+      "is",
+      "to"
+    ]
+  },
+  {
+    number: 31,
+    question: "This bike ... to me",
+    answer: "belongs",
+    options: [
+      "is belonging",
+      "belong",
+      "are belonging",
+      "belongs"
+    ]
+  },
+  {
+    number: 32,
+    question: "What ... you eat yesterday?",
+    answer: "Did",
+    options: [
+      "Do",
+      "Were",
+      "Did",
+      "You"
+    ]
+  },
+  {
+    number: 33,
+    question: "We ... to school by bus last week",
+    answer: "went",
+    options: [
+      "goes",
+      "went",
+      "go",
+      "goed"
+    ]
+  },
+  {
+    number: 34,
+    question: "My family ... the afternoon on the beach.",
+    answer: "enjoyed",
+    options: [
+      "enjoying",
+      "enjoyed",
+      "enjoied",
+      "enjoyes"
+    ]
+  },
+  {
+    number: 35,
+    question: "My dad ... when I came.",
+    answer: "was cooking",
+    options: [
+      "were cooking",
+      "was cooking",
+      "cooking",
+      "cooked"
+    ]
+  },
+  {
+    number: 36,
+    question: "My cat is ... than your dog.",
+    answer: "fatter",
+    options: [
+      "most fat",
+      "more fat",
+      "fatter",
+      "the fattest"
+    ]
+  },
+  {
+    number: 37,
+    question: "I ... play the piano tomorrow.",
+    answer: "am going to",
+    options: [
+      "going to",
+      "am going",
+      "goes",
+      "am going to"
+    ]
+  },
+  {
+    number: 38,
+    question: "She talks ... than me.",
+    answer: "more quickly",
+    options: [
+      "more quicklier",
+      "more quickly",
+      "quickly",
+      "quicklier"
+    ]
+  },
+  {
+    number: 40,
+    question: "This watch is ... .",
+    answer: "mine",
+    options: [
+      "mine",
+      "me",
+      "myself",
+      "my"
+    ]
+  },
+  {
+    number: 41,
+    question: "I think ... teacher is kind.",
+    answer: "our",
+    options: [
+      "me",
+      "us",
+      "ours",
+      "our"
+    ]
+  },
+  {
+    number: 42,
+    question: "I'm sure scientists ... new things.",
+    answer: "will discover",
+    options: [
+      "will discover",
+      "would discover",
+      "discover",
+      "might discover"
+    ]
+  },
+  {
+    number: 43,
+    question: "I ... study. I've got an exam soon.",
+    answer: "have to",
+    options: [
+      "to",
+      "has to",
+      "have to",
+      "must to"
+    ]
+  },
+  {
+    number: 44,
+    question: "I want ... my friend.",
+    answer: "to see",
+    options: [
+      "to see",
+      "see",
+      "seeing",
+      "saw"
+    ]
+  },
 ];
 
 const chooseRandom = (data, num = 1) => {
+    debugger;
     const res = [];
     for(let i = 0; i < num; ){
        const random = Math.floor(Math.random() * data.length);
