@@ -477,10 +477,130 @@ const data = [
       "saw"
     ]
   },
+  {
+    number: 45,
+    question: "Cry",
+    answer: "լաց",
+    options: [
+      "ծիծաղ",
+      "մտածել",
+      "կարծել",
+      "լաց"
+    ]
+  },
+  {
+    number: 46,
+    question: "laugh",
+    answer: "ծիծաղել",
+    options: [
+      "ծիծաղել",
+      "մտածել",
+      "կարծել",
+      "լաց"
+    ]
+  },
+  {
+    number: 47,
+    question: "think",
+    answer: "մտածել",
+    options: [
+      "ծիծաղել",
+      "մտածել",
+      "կարծել",
+      "լացել"
+    ]
+  },
+  {
+    number: 48,
+    question: "climb",
+    answer: "բարձրանալ",
+    options: [
+      "կռվել",
+      "հաղթել",
+      "բարձրանալ",
+      "լացել"
+    ]
+  },
+  {
+    number: 49,
+    question: "win",
+    answer: "հաղթել",
+    options: [
+      "կռվել",
+      "հաղթել",
+      "բարձրանալ",
+      "ծիծաղել"
+    ]
+  },
+  {
+    number: 50,
+    question: "fight",
+    answer: "պայքարել",
+    options: [
+      "պայքարել",
+      "հաղթել",
+      "բարձրանալ",
+      "ծիծաղել"
+    ]
+  },
+  {
+    number: 51,
+    question: "cook",
+    answer: "եփել",
+    options: [
+      "պայքարել",
+      "եփել",
+      "լվանալ",
+      "տառապել"
+    ]
+  },
+  {
+    number: 52,
+    question: "wash",
+    answer: "լվանալ",
+    options: [
+      "պայքարել",
+      "եփել",
+      "լվանալ",
+      "տառապել"
+    ]
+  },
+  {
+    number: 53,
+    question: "pull",
+    answer: "քաշել",
+    options: [
+      "ջարդել",
+      "հրել",
+      "քաշել",
+      "նետել"
+    ]
+  },
+  {
+    number: 54,
+    question: "push",
+    answer: "հրել",
+    options: [
+      "ջարդել",
+      "հրել",
+      "քաշել",
+      "նետել"
+    ]
+  },
+  {
+    number: 55,
+    question: "throw away",
+    answer: "նետել",
+    options: [
+      "ջարդել",
+      "հրել",
+      "քաշել",
+      "նետել"
+    ]
+  },
 ];
 
 const chooseRandom = (data, num = 1) => {
-    debugger;
     const res = [];
     for(let i = 0; i < num; ){
        const random = Math.floor(Math.random() * data.length);
